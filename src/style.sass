@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap')
+$background: #111
+$text: #fff
 
 h1,h2,h3,h4,h5,h6,
 p,blockquote,pre,
@@ -12,3 +14,38 @@ body
     font-family: 'Muli', sans-serif
     overflow: hidden
     margin: 0
+    background: $background
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+.container
+    width: 100vw
+    display: flex
+    padding: 0 20px
+
+.slide
+    position: relative
+    height: 80vh
+    border-radius: 20px
+    margin: 10px
+    cursor: pointer
+    color: $text
+    flex: 1
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    transition: all 500ms ease-in-out
+    h3
+        position: absolute
+        font-size: 24px
+        bottom: 20px
+        left: 20px
+        margin: 0
+        opacity: 0
+    &.active
+        flex: 10
+        h3
+            opacity: 1
+            transition: opacity 0.3s ease-in 0.4s
