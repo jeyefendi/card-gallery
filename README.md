@@ -12,5 +12,5 @@ Slider on pure JS & CSS from scratch with smooth animation.
   
 </b>
 
-# [LIVE DEMO](https://jeyefendi.github.io/us_cities/)
+# [LIVE DEMO](https://codepen.io/jeyefendi/full/YzLoqOg)
 ![Logo](/src/COVER.png)
