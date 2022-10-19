@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+table, th, td, caption,
+hr {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  overflow: hidden;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
